@@ -1,0 +1,14 @@
+Project Structure 
+1. node_modules / has all the installed node packages
+2. public/ Directory : contains static files that don't change.
+3. src/ Directory : Main folder for the React code.
+    1. components/: Reusable parts of the UI , like buttons or headers.
+    2. assets/ : Images, fonts, and other static files.
+    3. styles / : Css or stylesheets.
+    4. App.js : The main component that renders all other components.
+4. packages.json contains information about this projects like name , version , dependencies on other react packages.
+5. package-lock.json : contains information about the exact version of each installed package.
+6. .gitignore : tells git which files it should not track / not maintain a version history for.
+7. README.md : contains information about the project.
+8. .env : contains environment variables.
+9. vite.config.js  contains vite config
